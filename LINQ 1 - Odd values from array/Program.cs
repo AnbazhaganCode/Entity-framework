@@ -15,10 +15,12 @@ namespace Oops
             // Q)  List the odd values from given array 
             int[] marks = { 1, 2, 3, 4, 5, 6, 7, 8 };
 
-            //Ans)
+            //Ans 1)
             var oddValues = from i in marks
                             where i % 2 != 0
                             select i;  //Linq
+            //Ans 2)
+            var results = marks.Ware(n => n %2 != 0);
             foreach ( var i in oddValues )
             {
                 Console.WriteLine(i);
