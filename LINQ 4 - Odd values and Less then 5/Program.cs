@@ -10,7 +10,7 @@ namespace Oops
     {
         static void Main(string[] args)
         {
-            //LINQ class three
+            //LINQ class four
 
             // Q)  List the odd values where lessthen 6 from given array 
             int[] marks = { 1, 2, 3, 4, 5, 6, 7, 8 };
