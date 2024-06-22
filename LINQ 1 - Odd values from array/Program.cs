@@ -21,6 +21,7 @@ namespace Oops
                             select i;  //Linq
             //Ans 2)
             var results = marks.Ware(n => n %2 != 0);
+            
             foreach ( var i in oddValues )
             {
                 Console.WriteLine(i);
