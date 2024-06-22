@@ -20,7 +20,7 @@ namespace Oops
                             where i % 2 != 0
                             select i;  //Linq
             //Ans 2)
-            var results = marks.Ware(n => n %2 != 0);
+            var results = marks.Where(n => n %2 != 0);
             
             foreach ( var i in oddValues )
             {
